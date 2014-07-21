@@ -1,0 +1,3058 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/***centerlizing imports***/
+/*** main navigation styles ***/
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+/* line 6, ../sass/nav.scss */
+nav.main-nav {
+  height: 40px;
+  width: 100%;
+  background: #28bdbc;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+}
+/* line 15, ../sass/nav.scss */
+nav.main-nav ul {
+  padding: 0;
+  margin: 0 auto;
+  height: 40px;
+  width: 100%;
+}
+/* line 22, ../sass/nav.scss */
+nav.main-nav li {
+  display: inline;
+  float: left;
+}
+/* line 26, ../sass/nav.scss */
+nav.main-nav li a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: 1px solid #26A5A5;
+}
+/* line 34, ../sass/nav.scss */
+nav.main-nav a {
+  color: white;
+  display: inline-block;
+  width: 196px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+}
+/* line 42, ../sass/nav.scss */
+nav.main-nav a:hover {
+  background: #1B7F7F;
+}
+
+/* line 49, ../sass/nav.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 53, ../sass/nav.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 58, ../sass/nav.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 65, ../sass/nav.scss */
+nav a#pull {
+  display: none;
+}
+
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+/*** header styles ***/
+/* line 6, ../sass/header.scss */
+.container {
+  position: relative;
+}
+
+/* line 8, ../sass/header.scss */
+#header-right {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+/* line 14, ../sass/header.scss */
+.header {
+  background: white;
+}
+
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+/*** background placeholder for slider ***/
+/* line 4, ../sass/conference-rotate.scss */
+#rotating-cities {
+  background: #000;
+  width: 55%;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
+/* line 12, ../sass/conference-rotate.scss */
+#rotating-cities div > img {
+  max-width: 100%;
+  height: 300px;
+}
+
+/* line 18, ../sass/conference-rotate.scss */
+.owl-nav {
+  position: absolute;
+  top: 45%;
+}
+/* line 22, ../sass/conference-rotate.scss */
+.owl-nav .owl-next {
+  position: absolute;
+  left: 500px;
+}
+
+/* line 27, ../sass/conference-rotate.scss */
+.owl-controls .owl-nav [class*="owl-"] {
+  background: #28bdbc !important;
+}
+/* line 30, ../sass/conference-rotate.scss */
+.owl-controls .owl-nav [class*="owl-"]:hover {
+  background: #cccccc !important;
+}
+
+/* line 37, ../sass/conference-rotate.scss */
+.owl-dots {
+  position: absolute;
+  left: 40%;
+  bottom: 5px;
+}
+
+/* line 43, ../sass/conference-rotate.scss */
+.slide-title {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 999;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+/* line 52, ../sass/conference-rotate.scss */
+.slide-date {
+  position: absolute;
+  z-index: 999;
+  top: 25%;
+  left: 10%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+/* line 4, ../sass/testimonials.scss */
+#testimonial-slogan {
+  background: #28bdbc;
+  color: white;
+  padding: 10px 15px;
+  margin: -30px 0;
+  height: 55px;
+}
+/* line 11, ../sass/testimonials.scss */
+#testimonial-slogan p {
+  width: 30%;
+  font-weight: bold;
+  font-size: .9em;
+  line-height: 1.2em;
+}
+
+/* line 19, ../sass/testimonials.scss */
+#decipherLogo {
+  margin-top: 50px;
+}
+/* line 23, ../sass/testimonials.scss */
+#decipherLogo img {
+  width: 15%;
+}
+
+/* line 28, ../sass/testimonials.scss */
+ul#company-logos {
+  margin: -49px 0 0 300px;
+}
+/* line 30, ../sass/testimonials.scss */
+ul#company-logos li {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* line 34, ../sass/testimonials.scss */
+ul#company-logos li a.active {
+  position: relative;
+}
+/* line 37, ../sass/testimonials.scss */
+ul#company-logos li a.active:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid white;
+  position: absolute;
+  top: 23px;
+  left: 31%;
+}
+
+/* line 56, ../sass/testimonials.scss */
+#quotes {
+  width: 70%;
+  background: white;
+  padding: 20px;
+  -moz-border-radius-bottomleft: 45px;
+  -webkit-border-bottom-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  -moz-border-radius-bottomright: 45px;
+  -webkit-border-bottom-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  position: absolute;
+  right: 3%;
+  margin-top: -75px;
+}
+/* line 66, ../sass/testimonials.scss */
+#quotes div > p {
+  line-height: 1.2em;
+  font-size: 0.9em;
+}
+/* line 70, ../sass/testimonials.scss */
+#quotes div > p span {
+  font-size: 0.8em;
+}
+
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+/*** typography styles ***/
+/* line 2, ../sass/typography.scss */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* line 6, ../sass/typography.scss */
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+/* line 8, ../sass/typography.scss */
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #28bdbc;
+}
+
+/* line 14, ../sass/typography.scss */
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #28bdbc;
+}
+
+/* line 20, ../sass/typography.scss */
+h3 {
+  font-size: 1.8em;
+}
+
+/* line 24, ../sass/typography.scss */
+a#registerBtn {
+  background: #28bdbc;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  right: 0;
+  position: absolute;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 36, ../sass/typography.scss */
+a#registerBtn:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* respnsive imports */
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 997px) {
+  /* line 4, ../sass/tablet.scss */
+  nav.main-nav {
+    height: auto;
+  }
+  /* line 7, ../sass/tablet.scss */
+  nav.main-nav ul {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  /* line 14, ../sass/tablet.scss */
+  nav.main-nav li {
+    width: 50%;
+    float: left;
+    position: relative;
+  }
+  /* line 19, ../sass/tablet.scss */
+  nav.main-nav li a {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+  }
+  /* line 25, ../sass/tablet.scss */
+  nav.main-nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+  }
+
+  /* line 32, ../sass/tablet.scss */
+  .header {
+    height: auto;
+  }
+  /* line 34, ../sass/tablet.scss */
+  .header #header-right {
+    position: relative;
+    top: 0;
+  }
+
+  /**** Rotating cities // conference info *****/
+  /* line 44, ../sass/tablet.scss */
+  #rotating-cities {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 49, ../sass/tablet.scss */
+  #conferene-info {
+    width: 100% !important;
+    height: auto !important;
+  }
+  /* line 53, ../sass/tablet.scss */
+  #conferene-info p {
+    margin-bottom: 50px;
+  }
+
+  /* line 59, ../sass/tablet.scss */
+  .speaker .bio {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* line 66, ../sass/tablet.scss */
+  .location {
+    display: block;
+    width: 95% !important;
+    margin: 20px 0 10px 0 !important;
+    padding: 25px 0 0 10px !important;
+  }
+
+  /* line 68, ../sass/tablet.scss */
+  #testimonial-slogan {
+    height: auto;
+    padding: 33px 15px;
+  }
+  /* line 72, ../sass/tablet.scss */
+  #testimonial-slogan p {
+    width: 50%;
+  }
+
+  /* line 77, ../sass/tablet.scss */
+  ul#company-logos {
+    margin: 10px 0 0 0;
+  }
+  /* line 82, ../sass/tablet.scss */
+  ul#company-logos .active:after {
+    display: none;
+  }
+
+  /* line 89, ../sass/tablet.scss */
+  #quotes {
+    margin-top: -8.3%;
+  }
+
+  /* line 93, ../sass/tablet.scss */
+  .owl-next, .owl-prev {
+    display: none !important;
+  }
+
+  /* line 95, ../sass/tablet.scss */
+  .city {
+    margin: 10px;
+  }
+  /* line 100, ../sass/tablet.scss */
+  .city .speaker .bio p {
+    font-size: 1em;
+  }
+}
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 5, ../sass/phone.scss */
+  nav.main-nav {
+    border-bottom: 0;
+    z-index: 9999;
+    background: #28bdbc;
+  }
+  /* line 10, ../sass/phone.scss */
+  nav.main-nav ul {
+    display: none;
+    height: auto;
+    background: #28bdbc;
+  }
+  /* line 16, ../sass/phone.scss */
+  nav.main-nav li {
+    width: 100%;
+  }
+
+  /* line 21, ../sass/phone.scss */
+  nav a#pull {
+    display: block;
+    width: 125px;
+    position: relative;
+  }
+  /* line 26, ../sass/phone.scss */
+  nav a#pull:after {
+    content: "\2261";
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 2px;
+  }
+
+  /* line 37, ../sass/phone.scss */
+  .header {
+    height: auto;
+  }
+  /* line 39, ../sass/phone.scss */
+  .header #header-right {
+    position: relative;
+    top: 0;
+    padding-bottom: 75px;
+  }
+
+  /**** Rotating cities // conference info *****/
+  /* line 48, ../sass/phone.scss */
+  #rotating-cities {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 53, ../sass/phone.scss */
+  #conferene-info {
+    width: 100% !important;
+    height: auto !important;
+  }
+  /* line 57, ../sass/phone.scss */
+  #conferene-info p {
+    margin-bottom: 50px;
+  }
+
+  /* line 63, ../sass/phone.scss */
+  .speaker .bio {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* line 70, ../sass/phone.scss */
+  #testimonial-slogan {
+    height: auto;
+    padding: 33px 15px;
+  }
+  /* line 74, ../sass/phone.scss */
+  #testimonial-slogan p {
+    width: 100%;
+  }
+
+  /* line 78, ../sass/phone.scss */
+  .owl-next, .owl-prev {
+    display: none !important;
+  }
+
+  /* line 80, ../sass/phone.scss */
+  ul#company-logos {
+    margin: 10px 0 0 0;
+  }
+  /* line 86, ../sass/phone.scss */
+  ul#company-logos .active:after {
+    display: none;
+  }
+
+  /* line 92, ../sass/phone.scss */
+  #quotes {
+    width: 85%;
+    right: 0;
+    margin-top: 11%;
+  }
+
+  /* line 98, ../sass/phone.scss */
+  #decipherLogo {
+    display: none;
+  }
+
+  /* line 100, ../sass/phone.scss */
+  a#registerBtn {
+    width: 163px;
+    left: 10px;
+    bottom: 18px;
+  }
+
+  /* line 106, ../sass/phone.scss */
+  nav.main-nav a {
+    width: 100%;
+  }
+
+  /* line 110, ../sass/phone.scss */
+  a.registerBtnSml {
+    position: relative;
+  }
+
+  /* line 114, ../sass/phone.scss */
+  .location {
+    display: block !important;
+    width: 95% !important;
+    margin: 20px 0 10px 0 !important;
+    padding: 25px 0 0 10px !important;
+  }
+
+  /* line 116, ../sass/phone.scss */
+  a.registerBtnSml {
+    position: relative !important;
+    margin-left: 10px;
+  }
+
+  /* line 117, ../sass/phone.scss */
+  .location p {
+    margin: 10px 0 10px 15px;
+    float: none !important;
+  }
+
+  /* line 119, ../sass/phone.scss */
+  .city {
+    margin: 10px;
+  }
+  /* line 124, ../sass/phone.scss */
+  .city .speaker .bio p {
+    font-size: 1em;
+  }
+
+  /* line 131, ../sass/phone.scss */
+  #agenda {
+    width: 100%;
+  }
+}
+@media sreen and (max-width: 320px) {
+  /* line 136, ../sass/phone.scss */
+  nav li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  /* line 141, ../sass/phone.scss */
+  nav li a {
+    border-bottom: 1px solid #fff;
+  }
+
+  /* line 147, ../sass/phone.scss */
+  .header {
+    height: auto;
+  }
+  /* line 149, ../sass/phone.scss */
+  .header #header-right {
+    position: relative;
+    top: 0;
+    padding-bottom: 75px;
+  }
+
+  /**** Rotating cities // conference info *****/
+  /* line 159, ../sass/phone.scss */
+  #rotating-cities {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 164, ../sass/phone.scss */
+  #conferene-info {
+    width: 100% !important;
+    height: auto !important;
+  }
+  /* line 168, ../sass/phone.scss */
+  #conferene-info p {
+    margin-bottom: 50px;
+  }
+
+  /* line 174, ../sass/phone.scss */
+  .speaker .bio {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* line 181, ../sass/phone.scss */
+  #testimonial-slogan {
+    height: auto;
+    padding: 33px 15px;
+  }
+  /* line 185, ../sass/phone.scss */
+  #testimonial-slogan p {
+    width: 100%;
+  }
+
+  /* line 191, ../sass/phone.scss */
+  ul#company-logos {
+    margin: 10px 0 0 0;
+  }
+  /* line 197, ../sass/phone.scss */
+  ul#company-logos .active:after {
+    display: none;
+  }
+
+  /* line 203, ../sass/phone.scss */
+  #quotes {
+    width: 85%;
+    right: 0;
+    margin-top: 11%;
+  }
+
+  /* line 209, ../sass/phone.scss */
+  nav.main-nav a {
+    width: 100%;
+  }
+
+  /* line 213, ../sass/phone.scss */
+  #decipherLogo {
+    display: none;
+  }
+
+  /* line 216, ../sass/phone.scss */
+  .owl-next, .owl-prev {
+    display: none !important;
+  }
+
+  /* line 218, ../sass/phone.scss */
+  a#registerBtn {
+    width: 163px;
+    left: 0;
+    bottom: 18px;
+  }
+}
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+/* line 4, ../sass/forms.scss */
+input[type=text], input[type="password"] {
+  width: 35%;
+  padding: 7px;
+}
+
+/* line 10, ../sass/forms.scss */
+form input, form textarea {
+  margin-top: 10px;
+}
+
+/* line 18, ../sass/forms.scss */
+form.signup, form.loginform {
+  margin-left: 40%;
+}
+/* line 22, ../sass/forms.scss */
+form.signup p, form.loginform p {
+  font-size: 0.9em;
+}
+
+/* line 27, ../sass/forms.scss */
+form > div {
+  margin: 20px 0;
+}
+
+/* line 31, ../sass/forms.scss */
+input[type="submit"] {
+  border: none;
+  background: #28bdbc;
+  color: white;
+  font-size: 1.1em;
+  padding: 10px;
+}
+/* line 38, ../sass/forms.scss */
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #1B7F7F;
+}
+
+/* line 44, ../sass/forms.scss */
+select {
+  font-size: 0.9em;
+  padding: 5px;
+}

@@ -1,0 +1,41 @@
+/*** typography styles ***/
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1, h2 {margin-bottom: 10px;}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: $mainBlue
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: $mainBlue;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+a#registerBtn {
+	background: $mainBlue;
+	font-weight: bold;
+	color: $white;
+	text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    right: 0;
+    position: absolute;
+    @include transition(background .3s ease);
+    
+    &:hover {
+      background: #1B7F7F;
+      cursor: pointer;
+    }
+
+  }

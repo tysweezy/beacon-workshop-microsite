@@ -1,0 +1,507 @@
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff3e7;
+}
+
+/* line 18, ../sass/_base.scss */
+a img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_base.scss */
+.wrapper {
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 35, ../sass/_base.scss */
+#conferene-info {
+  width: 43%;
+  height: 300px;
+  padding-top: 10px;
+}
+/* line 40, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+/* line 47, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+/* line 52, ../sass/_base.scss */
+.page-title {
+  color: #aaa;
+  margin: 25px 0 25px 0;
+}
+
+/* line 57, ../sass/_base.scss */
+.page-info {
+  width: 100%;
+}
+/* line 60, ../sass/_base.scss */
+.page-info p {
+  line-height: 1.2em;
+}
+
+/* line 66, ../sass/_base.scss */
+.ag-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  	/*&:after {
+  	z-index: -1;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	content:  url(../img/newyork/Olympus-Classroom.JPG);
+  	position: absolute;
+  	left:0;
+  	top:0;
+  	opacity: 0.4;
+  	overflow: hidden;
+  	max-width: 100%;
+  
+  
+  
+  	}*/
+}
+
+/* line 92, ../sass/_base.scss */
+.registerSlide {
+  position: absolute;
+  top: 45%;
+  background: #28bdbc;
+  padding: 10px;
+  left: 35%;
+  z-index: 9999;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 105, ../sass/_base.scss */
+.lo-wrapper {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+/* line 127, ../sass/_base.scss */
+#agenda {
+  width: 100%;
+}
+/* line 133, ../sass/_base.scss */
+#agenda h2 {
+  font-style: italic;
+}
+/* line 138, ../sass/_base.scss */
+#agenda p {
+  font-size: 1.3em;
+}
+/* line 146, ../sass/_base.scss */
+#agenda span {
+  font-weight: bold;
+}
+
+/*** keynote styles ***/
+/* line 152, ../sass/_base.scss */
+.speaker {
+  position: relative;
+  height: auto;
+  margin-bottom: 100px;
+}
+/* line 158, ../sass/_base.scss */
+.speaker .bio {
+  position: absolute;
+  width: 65%;
+  right: 0;
+  top: 0;
+}
+/* line 165, ../sass/_base.scss */
+.speaker .bio h3 {
+  margin-bottom: 15px;
+}
+/* line 169, ../sass/_base.scss */
+.speaker .bio p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* line 177, ../sass/_base.scss */
+h2.key-city {
+  color: #999;
+}
+
+/* line 181, ../sass/_base.scss */
+.city {
+  border-bottom: 1px solid #aaa;
+  height: auto;
+  padding-top: 35px;
+}
+/* line 186, ../sass/_base.scss */
+.city:last-child {
+  border: none;
+}
+
+/* line 192, ../sass/_base.scss */
+.location {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 25px;
+  width: 43%;
+  display: inline-block;
+  height: auto;
+  	/*&:before {
+  		content: "";
+    	border: 5px solid #ccc;
+    	background: #ccc;
+    	position: absolute;
+    	width: 96.6%;
+    	height: 100%;
+      top: -5px;
+  
+    	z-index: -1;
+  	}*/
+}
+/* line 203, ../sass/_base.scss */
+.location p {
+  margin: 10px 0 21px 15px;
+  float: right;
+  font-weight: bold;
+}
+/* line 211, ../sass/_base.scss */
+.location img {
+  max-width: 100%;
+  width: 150px;
+}
+
+/* line 230, ../sass/_base.scss */
+a.registerBtnSml {
+  color: white;
+  background: #28bdbc;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 243, ../sass/_base.scss */
+a.registerBtnSml:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+
+/* line 251, ../sass/_base.scss */
+a.regBtnGen {
+  color: white;
+  background: #28bdbc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/* line 260, ../sass/_base.scss */
+a.mobileMenu {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 7px !important;
+  left: 50%;
+  position: absolute;
+  top: 7px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  /* line 271, ../sass/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 5, ../sass/phone.scss */
+  nav.main-nav {
+    border-bottom: 0;
+    z-index: 9999;
+    background: #28bdbc;
+  }
+  /* line 10, ../sass/phone.scss */
+  nav.main-nav ul {
+    display: none;
+    height: auto;
+    background: #28bdbc;
+  }
+  /* line 16, ../sass/phone.scss */
+  nav.main-nav li {
+    width: 100%;
+  }
+
+  /* line 21, ../sass/phone.scss */
+  nav a#pull {
+    display: block;
+    width: 125px;
+    position: relative;
+  }
+  /* line 26, ../sass/phone.scss */
+  nav a#pull:after {
+    content: "\2261";
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 2px;
+  }
+
+  /* line 37, ../sass/phone.scss */
+  .header {
+    height: auto;
+  }
+  /* line 39, ../sass/phone.scss */
+  .header #header-right {
+    position: relative;
+    top: 0;
+    padding-bottom: 75px;
+  }
+
+  /**** Rotating cities // conference info *****/
+  /* line 48, ../sass/phone.scss */
+  #rotating-cities {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 53, ../sass/phone.scss */
+  #conferene-info {
+    width: 100% !important;
+    height: auto !important;
+  }
+  /* line 57, ../sass/phone.scss */
+  #conferene-info p {
+    margin-bottom: 50px;
+  }
+
+  /* line 63, ../sass/phone.scss */
+  .speaker .bio {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* line 70, ../sass/phone.scss */
+  #testimonial-slogan {
+    height: auto;
+    padding: 33px 15px;
+  }
+  /* line 74, ../sass/phone.scss */
+  #testimonial-slogan p {
+    width: 100%;
+  }
+
+  /* line 78, ../sass/phone.scss */
+  .owl-next, .owl-prev {
+    display: none !important;
+  }
+
+  /* line 80, ../sass/phone.scss */
+  ul#company-logos {
+    margin: 10px 0 0 0;
+  }
+  /* line 86, ../sass/phone.scss */
+  ul#company-logos .active:after {
+    display: none;
+  }
+
+  /* line 92, ../sass/phone.scss */
+  #quotes {
+    width: 85%;
+    right: 0;
+    margin-top: 11%;
+  }
+
+  /* line 98, ../sass/phone.scss */
+  #decipherLogo {
+    display: none;
+  }
+
+  /* line 100, ../sass/phone.scss */
+  a#registerBtn {
+    width: 163px;
+    left: 10px;
+    bottom: 18px;
+  }
+
+  /* line 106, ../sass/phone.scss */
+  nav.main-nav a {
+    width: 100%;
+  }
+
+  /* line 110, ../sass/phone.scss */
+  a.registerBtnSml {
+    position: relative;
+  }
+
+  /* line 114, ../sass/phone.scss */
+  .location {
+    display: block !important;
+    width: 95% !important;
+    margin: 20px 0 10px 0 !important;
+    padding: 25px 0 0 10px !important;
+  }
+
+  /* line 116, ../sass/phone.scss */
+  a.registerBtnSml {
+    position: relative !important;
+    margin-left: 10px;
+  }
+
+  /* line 117, ../sass/phone.scss */
+  .location p {
+    margin: 10px 0 10px 15px;
+    float: none !important;
+  }
+
+  /* line 119, ../sass/phone.scss */
+  .city {
+    margin: 10px;
+  }
+  /* line 124, ../sass/phone.scss */
+  .city .speaker .bio p {
+    font-size: 1em;
+  }
+
+  /* line 131, ../sass/phone.scss */
+  #agenda {
+    width: 100%;
+  }
+}
+@media sreen and (max-width: 320px) {
+  /* line 136, ../sass/phone.scss */
+  nav li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  /* line 141, ../sass/phone.scss */
+  nav li a {
+    border-bottom: 1px solid #fff;
+  }
+
+  /* line 147, ../sass/phone.scss */
+  .header {
+    height: auto;
+  }
+  /* line 149, ../sass/phone.scss */
+  .header #header-right {
+    position: relative;
+    top: 0;
+    padding-bottom: 75px;
+  }
+
+  /**** Rotating cities // conference info *****/
+  /* line 159, ../sass/phone.scss */
+  #rotating-cities {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 164, ../sass/phone.scss */
+  #conferene-info {
+    width: 100% !important;
+    height: auto !important;
+  }
+  /* line 168, ../sass/phone.scss */
+  #conferene-info p {
+    margin-bottom: 50px;
+  }
+
+  /* line 174, ../sass/phone.scss */
+  .speaker .bio {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* line 181, ../sass/phone.scss */
+  #testimonial-slogan {
+    height: auto;
+    padding: 33px 15px;
+  }
+  /* line 185, ../sass/phone.scss */
+  #testimonial-slogan p {
+    width: 100%;
+  }
+
+  /* line 191, ../sass/phone.scss */
+  ul#company-logos {
+    margin: 10px 0 0 0;
+  }
+  /* line 197, ../sass/phone.scss */
+  ul#company-logos .active:after {
+    display: none;
+  }
+
+  /* line 203, ../sass/phone.scss */
+  #quotes {
+    width: 85%;
+    right: 0;
+    margin-top: 11%;
+  }
+
+  /* line 209, ../sass/phone.scss */
+  nav.main-nav a {
+    width: 100%;
+  }
+
+  /* line 213, ../sass/phone.scss */
+  #decipherLogo {
+    display: none;
+  }
+
+  /* line 216, ../sass/phone.scss */
+  .owl-next, .owl-prev {
+    display: none !important;
+  }
+
+  /* line 218, ../sass/phone.scss */
+  a#registerBtn {
+    width: 163px;
+    left: 0;
+    bottom: 18px;
+  }
+}

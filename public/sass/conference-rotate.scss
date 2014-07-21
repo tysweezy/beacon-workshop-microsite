@@ -1,0 +1,60 @@
+@import "base.scss";
+
+/*** background placeholder for slider ***/
+#rotating-cities {
+	background: #000;
+	width: 55%;
+	height: 300px;
+	position: absolute;
+	right: 0;
+	top: -20px;
+
+	div>img {
+		max-width: 100%;
+		height: 300px;
+	}
+}
+
+.owl-nav {
+	position: absolute;
+	top: 45%;
+
+	.owl-next {
+		position: absolute;
+		left: 500px;
+	}
+}
+ .owl-controls .owl-nav [class*="owl-"]  {
+	background: $mainBlue !important;
+
+	&:hover {
+		background: #cccccc !important;
+	}
+
+
+}
+
+.owl-dots {
+   position: absolute;
+   left: 40%;
+   bottom: 5px;
+}
+
+.slide-title {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	z-index: 999;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+}
+
+.slide-date {
+	position: absolute;
+	z-index: 999;
+	top: 25%;
+	left: 10%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+
+}

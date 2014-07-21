@@ -1,0 +1,16 @@
+@import "_base.scss";
+
+/*** header styles ***/
+
+
+.container {position: relative;}
+
+#header-right {
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+.header {
+	background: $white;
+}

@@ -1,0 +1,107 @@
+@import "_base.scss";
+
+@media screen and (min-width: 481px) and (max-width: 997px) {
+  nav.main-nav {
+    height: auto;
+
+    ul {
+    	width: 100%;
+    	display: block;
+    	height: auto;
+
+    } 
+
+    li {
+    	width: 50%;
+    	float: left; 
+    	position: relative;
+
+    	a {
+    		border-bottom: 1px solid $white; 
+    		border-right: 1px solid $white;
+    	}
+    }
+
+    a {
+    	text-align: left; 
+    	width: 100%;
+    	text-indent: 25px;
+    }
+  }
+
+  .header {
+	height: auto;
+	  #header-right {
+	  	position: relative; 
+	  	top: 0;
+
+	  }
+
+}
+
+
+/**** Rotating cities // conference info *****/
+#rotating-cities {
+	position: relative;
+	width: 100%;
+}
+
+#conferene-info{
+	width: 100% !important;
+	height: auto !important;
+ 
+ p {
+    margin-bottom: 50px;
+  }
+}
+
+.speaker {
+  .bio {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+.location {display: block; width: 95% !important; margin: 20px 0 10px 0 !important; padding: 25px 0 0 10px !important;}
+
+#testimonial-slogan {
+	height: auto;
+	padding: 33px 15px;
+
+	p { 
+     width: 50%;
+    }
+}
+
+ul#company-logos {
+
+	margin: 10px 0 0 0;
+    
+    .active {
+       &:after {
+    	display: none;
+
+      }
+    }
+}
+
+#quotes {
+	margin-top: -8.3%;
+}
+
+.owl-next, .owl-prev {display: none !important;}
+
+.city {
+  margin: 10px;
+
+  .speaker {
+    .bio {
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+}

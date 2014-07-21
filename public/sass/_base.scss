@@ -1,0 +1,275 @@
+@import "compass/css3";
+
+/*** Variables and mixins ***/
+$mainBlue: #28BDBC;
+$contentArea: #FFF3E7;
+$bodyFont: #6E6566;
+$white: #FFFFFF;
+
+$container: 980px;
+
+html, body {
+	max-height: 100%;
+	height: 100%;
+	@include box-sizing(border-box);
+	background: $contentArea; 
+}
+
+a img {
+	max-width: 100%;
+} 
+
+.container {
+	width: $container;
+	margin: 0 auto; 
+}
+
+.wrapper {
+
+	color: $bodyFont;
+	
+  height: 100%; 
+	
+}
+
+#conferene-info {
+	width: 43%;
+	height: 300px;
+	padding-top: 10px;
+
+	p {
+	  line-height: 1.2em;
+	  margin-bottom: 10px;
+	  font-size: 0.9em;
+	} 
+}
+
+.page-content {
+	margin: 20px 0 0 0; 
+	position: relative;
+} 
+
+.page-title {
+	color: #aaa;
+	margin: 25px 0 25px 0;
+}
+
+.page-info {
+  width: 100%;
+
+	p {
+		line-height: 1.2em;
+
+	}
+}
+
+.ag-wrapper { 
+  
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+
+
+
+	/*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/newyork/Olympus-Classroom.JPG);
+	position: absolute;
+	left:0;
+	top:0;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+
+	}*/
+
+}
+
+.registerSlide {
+	position: absolute;
+	top: 45%;
+	background: $mainBlue;
+	padding: 10px;
+	left: 35%;
+	z-index: 9999;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.lo-wrapper {
+	z-index: 1;
+  position: relative;
+  overflow: hidden;
+
+  /*&:after {
+	z-index: -1;
+	background-size: cover;
+	-webkit-background-size: cover;
+	content:  url(../img/sf/sf_city.jpg);
+	position: absolute;
+	left:0;
+	top:-41%;
+	opacity: 0.4;
+	overflow: hidden;
+	max-width: 100%;
+
+
+ 
+	}*/
+}
+
+#agenda {
+  
+  
+  width: 100%;
+
+
+  h2 {
+  	font-style: italic;
+  }
+ 
+
+  p {
+ 
+  	font-size: 1.3em;
+
+  
+
+  }
+
+	span {
+		font-weight: bold; 
+	}
+}
+
+/*** keynote styles ***/
+.speaker {
+   position: relative;
+   height: auto;
+   margin-bottom: 100px;
+
+
+	.bio {
+     position: absolute;
+     width: 65%;
+     right: 0;
+     top: 0;
+   
+
+     h3 {
+     	margin-bottom: 15px;
+     }
+
+     p {
+     	font-size: 0.9em;
+     	line-height: 1.3em;
+     }
+
+	}
+}
+
+h2.key-city {
+  color: #999;
+}
+
+.city {
+	border-bottom: 1px solid #aaa;
+	height: auto;
+	padding-top: 35px;
+
+	&:last-child {
+		border: none;
+	}
+	
+}
+
+.location {
+	margin: 20px 0 0 10px;
+	position: relative;
+	//background: $white;
+	padding: 25px;
+	width: 43%;
+	display: inline-block;
+	height: auto;
+
+	//border-bottom: 5px solid #ccc;
+
+	p {
+		
+		margin: 10px 0 21px 15px;
+		float: right;
+		font-weight: bold;
+	}
+
+
+	img {
+		max-width: 100%;
+		width: 150px;
+	}
+
+
+	/*&:before {
+		content: "";
+  	border: 5px solid #ccc;
+  	background: #ccc;
+  	position: absolute;
+  	width: 96.6%;
+  	height: 100%;
+    top: -5px;
+
+  	z-index: -1;
+	}*/
+}
+
+a.registerBtnSml {
+  color: $white;
+  background: $mainBlue;
+  padding: 7px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 3%;
+  //top: 40%;
+  bottom: 0;
+  @include transition(background .3s ease);
+
+  &:hover {
+    background: #1B7F7F;
+    cursor: pointer;
+  }
+
+}
+
+
+a.regBtnGen {
+	color: $white;
+	background: $mainBlue;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 7px;
+	margin-top: 10px;
+}
+
+a.mobileMenu {
+	text-align: center;
+	border: 2px solid #fff;
+	padding: 7px !important;
+	left: 50%;
+	position: absolute;
+	top: 7px; 
+	visibility: hidden;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+	.container {
+		 width: 100%; 
+	}
+}
+

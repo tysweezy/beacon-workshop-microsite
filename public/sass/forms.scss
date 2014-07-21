@@ -1,0 +1,47 @@
+@import "_base.scss";
+@import "compass/css3";
+
+input[type=text], input[type="password"] {
+   width: 35%;
+   padding: 7px;
+}
+
+form {
+   input, textarea {
+ 	margin-top: 10px;
+ }
+
+}
+
+
+
+form.signup, form.loginform {
+ margin-left: 40%;
+
+
+ p {
+ 	font-size: 0.9em;
+ }
+}
+
+form > div {
+	margin: 20px 0
+}
+
+input[type="submit"] {
+	border: none;
+	background: $mainBlue;
+	color: $white;
+	font-size: 1.1em;
+	padding: 10px;
+
+	&:hover {
+		cursor: pointer;
+		background: #1B7F7F;
+	}
+}
+
+select {
+	font-size: 0.9em;
+	padding: 5px;
+}

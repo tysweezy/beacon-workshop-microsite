@@ -1,0 +1,77 @@
+@import "base.scss";
+@import "compass/css3";
+
+#testimonial-slogan {
+	background: $mainBlue;
+	color: $white;
+	padding: 10px 15px;
+	margin: -30px 0;
+	height: 55px;
+
+	p {
+		width: 30%;
+		font-weight: bold;
+		font-size: .9em;
+		line-height: 1.2em;
+	}
+}
+
+#decipherLogo {
+    
+    margin-top: 50px;
+    
+	img {
+		width: 15%;
+	}
+}
+
+ul#company-logos {
+	margin: -49px 0 0 300px;
+  li {
+  	display: inline-block;
+    margin: 0 10px;
+
+    a.active {
+      position: relative;
+
+      &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+
+        border-bottom: 20px solid $white;
+        position: absolute;
+
+        top: 23px;
+        left: 31%;
+
+
+      }
+    }
+  }
+}
+
+#quotes {
+  width: 70%;
+  background: $white;
+  padding: 20px;
+  @include border-bottom-left-radius(45px);
+  @include border-bottom-right-radius(45px);
+  position: absolute;
+  right: 3%;
+  margin-top: -75px;
+
+  div>p {
+  	line-height: 1.2em;
+  	font-size: 0.9em;
+
+  	span {
+  		font-size: 0.8em;
+  	}
+  }
+
+
+}
+
