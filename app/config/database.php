@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'microsite-event',
 			'username'  => 'root',
-			'password'  => 'ty12rays',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
